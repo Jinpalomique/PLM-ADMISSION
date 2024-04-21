@@ -1,0 +1,104 @@
+:root{
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.header-container{
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    gap:15px;
+    border-bottom: solid #fde68a;
+    height: 2%;
+    width: 100%;
+}
+
+.header-container img {
+    height: 5%;
+    width: 5%;
+}
+
+
+.header-right{
+    display: flex;
+}
+#mySidenavleft a {
+  position: absolute;
+  left: -100px;
+  transition: 0.4s;
+  padding: 30px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+#mySidenavleft a:hover {
+  left: 0;
+  color: yellow;
+}
+
+#about {
+  top: 110px;
+  background-color: #b22222;
+}
+
+#blog {
+  top: 220px;
+  background-color: #b22222;
+}
+
+#contact {
+  top: 350px;
+  background-color: #b22222;
+}
+
+/* sidebar right */
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 950px;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

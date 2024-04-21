@@ -7,21 +7,38 @@
     display: flex;
     margin-bottom: 5%;
     align-items: center;
-    gap:15px;
     border-bottom: solid #fde68a;
-    height: 2%;
+    height: 10%;
     width: 100%;
+    justify-content: space-between;
 }
 
-.header-container img {
-    height: 5%;
-    width: 5%;
+.header-left{
+    align-items: center;
+    gap: 2%
 }
-
-
-.header-right{
+.header-left>img{
+    width: 10%;
+    height: 10%;
+}
+.header-right,.header-right>ul, .header-left{
     display: flex;
 }
+
+.PLM-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right ul{
+    gap: 10px;
+    list-style: none;
+}
+
+li a{
+    text-decoration-line: none;
+}
+
 #mySidenavleft a {
   position: absolute;
   left: -100px;

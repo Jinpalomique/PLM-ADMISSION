@@ -78,9 +78,11 @@ li a{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 950px;
+  width: 50%;
+  height: 50%;
   position: relative;
   margin: auto;
+  border: solid red 5px;
 }
 
 .numbertext {

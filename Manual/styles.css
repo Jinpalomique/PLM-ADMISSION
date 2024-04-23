@@ -140,7 +140,7 @@ li a{
 }
 
 .howto:hover {
-  box-shadow: rgba(238, 212, 9, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #eb780c 0 -3px 0 inset;
+  box-shadow: rgba(106, 105, 91, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #201d1a 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
@@ -149,6 +149,20 @@ li a{
   transform: translateY(2px);
 }
 
+/* Message note */
+
+.message
+{
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-color: #d7381488; 
+     border: solid 1px #e92406;
+     border-radius: 6px;
+     line-height: 18  px;
+     mc-auto-number-format: '{b}Note: {/b}';
+     overflow: hidden;
+     padding: 12px;
+}
 
 .active {
   background-color: #ee1d0a;

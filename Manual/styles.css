@@ -78,11 +78,9 @@ li a{
 
 /* Slideshow container */
 .slideshow-container {
-  width: 50%;
-  height: 50%;
+  max-width: 950px;
   position: relative;
   margin: auto;
-  border: solid red 5px;
 }
 
 .numbertext {
@@ -104,6 +102,20 @@ li a{
 }
 
 /* aboout container */
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.two-columns > * {
+  padding:1rem;
+}
+
+.h2 {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* button */
 .howto {
@@ -161,10 +173,13 @@ li a{
      border: solid 1px #e92406;
      border-radius: 6px;
      line-height: 18  px;
-     mc-auto-number-format: '{b}Note: {/b}';
+     /* mc-auto-number-format: '{b}Note: {/b}'; */
      overflow: hidden;
      padding: 12px;
 }
+
+/* Social Media buttons */
+
 
 .active {
   background-color: #ee1d0a;

@@ -53,6 +53,7 @@ li a {
     grid-template-columns: 3fr 2fr;
     height: 50%;
     width: 100%;
+    gap: 1%;
 }
 
 .slideshow-container{
@@ -66,9 +67,26 @@ li a {
 .announcement-container{
     height: 50%;
     background-color: blue;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.announcement-header{
+    background-color: #dc2626;
+    display: flex;
+    align-items: center;
+    font-size: 100%;
 }
 
 .dates-container{
     background-color: green;
     height: 50%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.dates-header{
+    background-color: #dc2626;
+    display: flex;
+    align-items: center;
 }

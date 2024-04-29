@@ -1,8 +1,6 @@
 /* NILILINIS KO LANG STYLESHEETS */
 :root {
-    padding: 0;
-    margin: 0;
-    height: 100%;
+    min-height: 800px;
 }
 
 body {
@@ -62,6 +60,7 @@ li a {
 }
 .announcements-section{
     height: 100%;
+    /* border: 2px solid black; */
 }
 
 .announcement-container{
@@ -78,6 +77,10 @@ li a {
     font-size: 100%;
 }
 
+.announcement, .dates{
+    background-color: #e5e7eb;
+}
+
 .dates-container{
     background-color: green;
     height: 50%;
@@ -87,6 +90,17 @@ li a {
 
 .dates-header{
     background-color: #dc2626;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: min(10%, 50px);
+    background-color: #fde68a;
     display: flex;
     align-items: center;
 }

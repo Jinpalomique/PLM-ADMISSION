@@ -1,13 +1,13 @@
 /* NILILINIS KO LANG STYLESHEETS */
 :root {
-    min-height: 800px;
+    min-height: 110vh;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    min-height: 100%;
+    gap: 10px;
+    min-height: 110vh;
 }
 
 .header-container{
@@ -103,4 +103,24 @@ li a {
     background-color: #fde68a;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 5px;
+}
+
+.about-container{
+    background-color: blue;
+    width: 55vw;
+    height: 27vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.about-header{
+    background-color: red;
 }

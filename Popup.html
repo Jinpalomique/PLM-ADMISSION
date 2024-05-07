@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLM Admission</title>
+    <link rel="stylesheet" href="Popup.css">
+</head>
+<body>
+
+    <!-- header -->
+    <div class="header-container">
+        <div class="header-left">
+            <img src="img/PLM.png">
+            <div class="PLM-header">
+                <div>Pamantasan ng Lungsod ng Maynila</div>
+                <div>University of the City of Manila</div>
+            </div>
+        </div>
+        <div class="header-right">
+            
+            <div class="social-buttons">
+                <a href="#" class="social-button social-button--facebook" aria-label="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-button social-button--linkedin" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-button social-button--twitter" aria-label="twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-button social-button--instagram" aria-label="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-button social-button--youtube" aria-label="Youtube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>              
+        </div>
+    </div>
+    
+    <div class="about-container">
+        <div class="application-left">
+            <button class="howto" role="button" onclick="openPopup()">Apply</button>
+            <!-- After press Popup instruction menu will display -->
+                <div class="popup" id="popup">
+                    <img src="img/PLM.png">
+                    <h2>hello</h2>
+                    <button class="howto" role="button" onclick="closePopup()">Next</button>
+
+
+
+                </div>
+
+
+
+            <button class="howto" role="button">Log In</button>
+            
+        </div>
+        
+    
+
+    </div>
+
+    <br>
+
+    <div class="Message-Container">
+        <div class="message"> 
+        
+            <b>Reminder:</b> To apply for PLM Admissions, please review the requirements, 
+            prepare and gather the required documents. 
+            Complete any necessary forms and submit your application by the deadline.
+        
+        </div>
+
+    </div>
+    
+    <div class="two-columns">
+        <div class="header-left">
+               <h2> About PLM </h2> 
+            <p>
+                PLM, established in 1965 by Republic Act No. 4196, is the first chartered and autonomous university funded by a city government. Opening its doors on July 17, 1967, 
+                PLM welcomed 556 students to its campus in Manila's historic Intramuros district, known for its Spanish colonial heritage. Today, over 10,000 students benefit from PLM's tuition-free education.
+                
+                PLM holds historical significance, built on the former sites of prestigious educational institutions like Universidad de San Ignacio and Ateneo de Municipal de Manila.
+                 It's recognized for its 100% licensure exam pass rate and commitment to producing socially responsible graduates since its inception in 1967
+            </p>
+                
+
+            </div>
+
+
+        </div>
+        <div>2</div>
+    </div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+
+
+</script>
+    
+</body>
+</html>

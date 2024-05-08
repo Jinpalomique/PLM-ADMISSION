@@ -3,6 +3,11 @@
     background-color: #fafafa; 
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+
 .header-container{
     display: flex;
     margin-bottom: 5%;
@@ -198,4 +203,25 @@ li a{
 
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.two-columns{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.header-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-left p {
+  text-align: justify;
+}
+
+.footer{
+  width: 100%;
+  background-color: red;
+  justify-content: flex-end;
 }

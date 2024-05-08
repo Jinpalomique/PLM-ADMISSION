@@ -85,7 +85,7 @@ li a{
     padding: 0 30px 30px;
     color: #d56969;
     visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
+    transition: transform 0.7s, top 0.7s;
 }
 
 .open-popup{
@@ -98,7 +98,7 @@ li a{
     width: 100px;
     margin-top: -50px;
     border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0,0.2);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0,0.2); */
 }
 
 .popup h2{

@@ -34,18 +34,56 @@ body {
 
 .header-right {
     width: 40%;
-}
-
-.header-right ul {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1vw;
+    padding-bottom: 0.5em;
+}
+.howto {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #de5419 0, #de120b 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
     list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 1em;
 }
 
-li a {
-    text-decoration-line: none;
+.howto:focus {
+    box-shadow: #f80505 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #ef1207 0 -3px 0 inset;
 }
 
+.howto:hover {
+    box-shadow: rgba(106, 105, 91, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #201d1a 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.howto:active {
+    box-shadow: #eb7703 0 3px 7px inset;
+    transform: translateY(2px);
+}
 .middle-container{
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -103,24 +141,32 @@ li a {
     background-color: #fde68a;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.footer-right{
+.copyright-2{
     display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin-right: 5px;
+    justify-content: center;
+    align-content: center;
 }
 
 .bottom-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 1vw;
+}
+
+.about-container{
     background-color: blue;
-    width: 55vw;
     height: 27vh;
     display: grid;
     grid-template-rows: 1fr 5fr;
 }
 
+.gmaps{
+    height: 100%;
+    width: 100%;
+}
 .about-header{
     background-color: red;
 }

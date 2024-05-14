@@ -132,6 +132,10 @@ body {
     align-items: center;
 }
 
+.dates{
+    overflow: auto;
+}
+
 .footer-container{
     position: fixed;
     left: 0;
@@ -152,21 +156,37 @@ body {
 
 .bottom-container{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 1vw;
-}
-
-.about-container{
-    background-color: blue;
-    height: 27vh;
-    display: grid;
-    grid-template-rows: 1fr 5fr;
 }
 
 .gmaps{
     height: 100%;
     width: 100%;
 }
-.about-header{
+
+.about-grid{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.about-left{
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 1fr 2fr;;
+}
+
+.about-right{
     background-color: red;
+}
+
+.about-header{
+    height: 100%;
+    background-color: yellow;
+    width: 100%;
+}
+.img img {
+    height: 90px;
+    width: 90px;
 }

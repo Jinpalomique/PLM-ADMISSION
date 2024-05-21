@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLM Admission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- header -->
+    <div class="header-container">
+        <div class="header-left">
+            <img src="img/PLM.png">
+            <div class="PLM-header">
+                <div>Pamantasan ng Lungsod ng Maynila</div>
+                <div>University of the City of Manila</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-right">
+                <button class="howto" role="button">Return</button>
+        </div>           
+        </div>
+    </div>
+    
+    <div class="about-container">
+        <div class="application-left">
+            <button class="howto" role="button" onclick="openPopup()">Apply</button>
+            <!-- After press Popup instruction menu will display -->
+                <div class="popup" id="popup">
+                    <img src="img/PLM.png">
+                        <h2>
+                            Welcome to PLMAT
+                        </h2>
+                        <p>
+                            
+                            Greetings and welcome to the PLMAT application. Please read these guidelines carefully before  
+                            registering to prevent miscommunication, deception, and other issues.
+                            <br> <br>
+                            Before proceeding, ensure you have followed all the directions and have all the 
+                            necessary paperwork for your application. You will see an instructional message before continuing, so please pay close attention to the instructions.
+
+                        </p>
+                    <button class="howto" role="button" onclick="closePopup()">Next</button>
+                </div>
+            <button class="howto" role="button">Log In</button>
+        </div>
+        
+    
+
+    </div>
+
+    <div class="Message-Container">
+        <div class="message"> 
+        
+            <b>Reminder:</b> To apply for PLM Admissions, please review the requirements, 
+            prepare and gather the required documents. 
+            Complete any necessary forms and submit your application by the deadline.
+        
+        </div>
+
+    </div>
+    
+    <div class="two-columns">
+        <div class="header-left">
+            <h2> About PLM </h2> 
+            <p>
+
+                The Pamantasan ng Lungsod ng Maynila (PLM) will start accepting online applications for freshmen students (undergraduate programs) 
+                for Academic Year (AY) 2024-2025 beginning on December 1, 2023.
+                <br> <br>
+                For AY 2024-2025, there will be an on-site PLM Admission Test (PLMAT). Minimum health protocols will
+                 be observed to ensure the safety of student-applicants. The PLMAT is a 4-hour examination consisting of sub-tests in English, Science, Mathematics, Filipino, and Abstract Reasoning. Passing the PLMAT is one of the requirements for admission to PLM.
+                <br> <br>
+                Applicants are encouraged to prepare for the PLMAT by reviewing relevant subjects and familiarizing themselves with the exam format. 
+                Additionally, detailed guidelines and application procedures will be available on the official PLM website.
+                <br> <br>
+                The application period provides a crucial opportunity for aspiring students to join one of the country's premier institutions, 
+                offering a range of undergraduate programs designed to foster academic excellence and professional development. For further inquiries, applicants may contact the PLM admissions office through their official channels.
+            </p>
+
+        <div>
+        
+        <div class="header-right">
+            <h2> Who may Apply </h2>
+            <p>
+                Student-applicants may apply provided that they comply with any of the following basic qualifications:
+                <br> <br>
+                1. Senior High School (SHS) student who is currently enrolled in Grade 12 at a Department of Education (DepEd) accredited
+                senior high school with a Grade 11 general weighted average (GWA) of 80 or above.
+                <br> <br>
+                2. Senior High School graduate from a DepEd accredited senior high school with a Grade 11 general weighted average (GWA)
+                of 80 or above and has not taken any college or university units or programs during the application period.
+                <br> <br>
+                3. Alternative Learning System (ALS) completer who has passed the Accreditation & Equivalency (A&E) as recommended 
+                for tertiary education and has not taken any college or university units/programs during the application period.
+                <br> <br>
+                Applicants who meet these qualifications are invited to take the first step towards becoming part of the PLM community, 
+                known for its commitment to providing quality education and producing graduates who excel in their chosen fields.
+
+            </p>
+
+
+
+
+
+                
+        </div>
+
+
+
+    </div>
+
+    <script>
+        let popup = document.getElementById("popup");
+        
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+        
+        
+        </script>
+
+
+    
+</body>
+</html>

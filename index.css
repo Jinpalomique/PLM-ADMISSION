@@ -178,12 +178,14 @@ body {
 
 .about-right{
     display: grid;
-    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-rows: 4.7fr 2fr 3fr;
 }
 
 .contact-intro {
     font-size: 0.9em;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
 }
 
 .about-header{
@@ -220,15 +222,17 @@ body {
 }
 
 .about-us {
-    font-size: 1.3em;
+    text-align: justify;
+    font-size: 1em;
     margin-top: 4%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .contact-container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: .5fr .5fr .5fr;
 }
 .about-us span, .contact-container>div span{
     font-weight: 700;
 }
+
